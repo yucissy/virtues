@@ -10,5 +10,7 @@ After cloning the project, run these commands to install the library (*and all
 development dependencies*):
 
     $ python setup.py build
+    
     $ python setup.py install
+    
     $ pip install -e .
