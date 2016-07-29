@@ -3,14 +3,21 @@
 """
 virtues
 Usage:
-  virtues init
+  virtues init [--franklin]
+  virtues show
+  virtues log
+  virtues status
   virtues -h | --help
   virtues --version
 Options:
   -h --help                         Show this screen.
   --version                         Show version.
 Examples:
-  virtues init
+  virtues init                  Create your own virtues list.
+  virtues init --franklin       Create a virtues list using Benjamin Franklin's 13 virtues.
+  virtues show                  See virtues list.
+  virtues status                See your status report.
+  virtues log                   Log your daily performance.
 Help:
   For help using this tool, please open an issue on the Github repository:
   https://github.com/yucissy/virtues
@@ -29,8 +36,6 @@ def main():
     """Main CLI entrypoint"""
     import commands
     options = docopt(__doc__, version=VERSION)
-
-    print "executing main..."
 
     # Dynamically match the command the user is trying to run
     # with a pre-defined command class
