@@ -1,7 +1,7 @@
 virtues
 =========
 
-*A python command-line app to track your daily virtues. Inspired by `Ben Franklin <http://www.artofmanliness.com/2008/06/01/the-virtuous-life-wrap-up/>`_.*
+*A python command-line app to track your daily virtues. Inspired by `Ben Franklin <http://www.artofmanliness.com/2008/06/01/the-virtuous-life-wrap-up/>`_ *
 
 Usage
 -----
