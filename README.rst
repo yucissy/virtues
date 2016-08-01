@@ -20,7 +20,7 @@ Create a list of virtues you'd like to track with the command:
 
     $ virtues init
     
-You will be prompted to enter a list of virtues and their descriptions (optional). If you're unsure where to start, running with the [--franklin] option will default your list to Benjamin Franklin's `13 virtues <http://www.thirteenvirtues.com/>`_.
+You will be prompted to enter a list of virtues and their descriptions (optional). If you're unsure where to start, use the [--franklin] option to default your list to Benjamin Franklin's `13 virtues <http://www.thirteenvirtues.com/>`_.
 
     $ virtues init --franklin
 
