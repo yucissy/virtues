@@ -35,9 +35,7 @@ At the end of each day, log your performance with the following command:
 
     $ virtues log
 
-:code:
-    Think back on your day...
-    Did you display the following virtues?
-    Temperance[y/n] y
-    Silence[y/n] 
+Use the verbose option to see descriptions of virtues:
+
+    $ virtues log -v
 
