@@ -31,7 +31,7 @@ To see your list of virtues:
 Logging
 -----
 
-At the end of each day, log your performance with the following command. The verbose [-v] option will prompt you with each virtue's long description:
+At the end of each day, log your performance with the following command. The verbose [-v] option will print each virtue's long description:
 
     $ virtues log [-v]
 
