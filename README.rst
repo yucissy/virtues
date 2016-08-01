@@ -26,7 +26,7 @@ You will be prompted to enter a list of virtues and their descriptions (optional
 
 To see your list of virtues:
     
-    $ virtues show
+    $ virtues list
     
 Logging
 -----
