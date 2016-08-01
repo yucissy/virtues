@@ -16,7 +16,7 @@ development dependencies*):
 Getting Started
 -----
     
-First things first: Create a list of virtues you'd like to track for yourself. Run the command
+Create a list of virtues you'd like to track with the command
 
     $ virtues init
     
