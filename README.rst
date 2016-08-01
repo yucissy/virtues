@@ -27,3 +27,16 @@ You will be prompted to enter a list of virtues and their descriptions (optional
 To see your list of virtues:
     
     $ virtues show
+    
+Logging
+-----
+
+At the end of each day, log your performance with the following command:
+
+    $ virtues log
+
+.. code-block::
+    Think back on your day...
+    Did you display the following virtues?
+    Temperance[y/n] y
+    Silence[y/n] 
