@@ -40,4 +40,4 @@ At the end of each day, log your performance with the following command:
     Did you display the following virtues?
     Temperance[y/n] y
     Silence[y/n] 
-::
+
