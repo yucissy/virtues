@@ -34,6 +34,10 @@ Logging
 At the end of each day, log your performance with the following command. The verbose [-v] option will print each virtue's long description:
 
     $ virtues log [-v]
+    
+To clear your log:
+    
+    $ virtues clear
 
 Status Report
 -----
