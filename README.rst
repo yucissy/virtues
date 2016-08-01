@@ -12,3 +12,11 @@ development dependencies*):
     $ python setup.py build && python setup.py install
     
     $ pip install -e .
+    
+First things first: Create a list of virtues you'd like to track for yourself. Run the command
+
+    $ virtues init
+    
+You will be prompted to enter a list of virtues and their descriptions (optional). If you're unsure where to start, running this command will let you use Benjamin Franklin's `13 virtues <http://www.thirteenvirtues.com/>`_.
+
+    $ virtues init --franklin
