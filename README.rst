@@ -35,3 +35,9 @@ At the end of each day, log your performance with the following command. The ver
 
     $ virtues log [-v]
 
+Status Report
+-----
+
+Running this command will show you a status report for all your days so far
+
+    $ virtues status
