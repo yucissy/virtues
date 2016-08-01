@@ -16,7 +16,7 @@ development dependencies*):
 Getting Started
 -----
     
-Create a list of virtues you'd like to track with the command
+Create a list of virtues you'd like to track with the command:
 
     $ virtues init
     
@@ -24,6 +24,6 @@ You will be prompted to enter a list of virtues and their descriptions (optional
 
     $ virtues init --franklin
 
-To see your list of virtues
+To see your list of virtues:
     
     $ virtues show
