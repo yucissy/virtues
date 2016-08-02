@@ -45,12 +45,20 @@ class Base(object):
 
 
     def load_virtue_log(self):
-    	""" Loads the virtue list from virtues/data/virtue_log
+    	""" Loads the virtue log from virtues/data/virtue_log.db
     		Returns the file
     	"""
     	path = os.path.join(os.path.dirname(__file__), os.pardir) + '/data/virtue_log'
     	file = shelve.open(path, writeback=True)
     	return file
+
+    def clear_virtue_log(self):
+        """ Loads the virtue log from virtues/data/virtue_log.db
+            Clears the file
+        """
+        log = self.load_virtue_log()
+        log.clear()
+        log.close()
 
     def run(self):
         raise NotImplementedError('You must implement the run() method yourself!')

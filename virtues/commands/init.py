@@ -13,6 +13,8 @@ import json
 
 import os
 
+import shelve
+
 
 class Init(Base):
     """Set up the virtue tracker by prompting the user for virtues to track"""
@@ -28,6 +30,9 @@ class Init(Base):
     def run(self):
     	""" Re-initialize the user's virtue list
     	"""
+    	
+    	# clear the virtue log
+    	self.clear_virtue_log()
 
     	# if user chooses franklin's list, copy it from virtues/data/franklin_virtue_list.json
     	if self.options['--franklin'] == True:

@@ -13,6 +13,12 @@ class Log(Base):
 
     def run(self):
 
+    	verbose = False
+
+    	# the verbose option requires us to print virtue descriptions
+    	if (self.options['--verbose'] == True) or (self.options['-v'] == True):
+    		verbose = True
+
     	# open the virtue log db with shelve
     	file = self.load_virtue_list('r')
     	virtue_list = json.load(file, object_pairs_hook=collections.OrderedDict)
@@ -23,7 +29,13 @@ class Log(Base):
 
     	# record the response (yes/no) for each virtue
     	for virtue in virtue_list:
-    		result = self.get_response(virtue.title()+'[y/n] ', True)
+
+    		# print description if verbose, print virtue alone if not
+    		if verbose == True:
+    			result = self.get_response(virtue.upper()+' -- '+virtue_list[virtue]+'[y/n] ', True)
+    		else:
+    			result = self.get_response(virtue.title()+'[y/n] ', True)
+
     		if not log.has_key(virtue):
     			log[virtue] = []
 

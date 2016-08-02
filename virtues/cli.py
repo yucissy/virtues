@@ -4,9 +4,10 @@
 virtues
 Usage:
   virtues init [--franklin]
-  virtues show
-  virtues log
+  virtues list
+  virtues log [--verbose | -v]
   virtues status
+  virtues clear
   virtues -h | --help
   virtues --version
 Options:
@@ -15,9 +16,10 @@ Options:
 Examples:
   virtues init                  Create your own virtues list.
   virtues init --franklin       Create a virtues list using Benjamin Franklin's 13 virtues.
-  virtues show                  See virtues list.
+  virtues list                  See virtues list.
   virtues status                See your status report.
   virtues log                   Log your daily performance.
+  virtues clear                 Clear your log.
 Help:
   For help using this tool, please open an issue on the Github repository:
   https://github.com/yucissy/virtues

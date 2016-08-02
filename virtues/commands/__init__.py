@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 from .init import *
-from .show import *
+from .list import *
 from .log import *
 from .status import *
+from .clear import *
