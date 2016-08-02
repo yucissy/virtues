@@ -6,7 +6,7 @@ A python command-line app to track your daily virtues. Inspired by `Ben Franklin
 Install
 -----
 
-After cloning the project to a directory, run these commands in that directory to install the library (*and all
+After cloning the project to a directory or downloading the .zip file, run these commands in that directory to install the library (*and all
 development dependencies*):
 
     $ python setup.py build && python setup.py install
@@ -31,7 +31,7 @@ To see your list of virtues:
 Logging
 -----
 
-At the end of each day, log your performance with the following command. The verbose [-v] option will print each virtue's long description:
+The program allows you to log and track your virtues. Add a new entry to your virtues log with the following command. The verbose [-v] option will print each virtue's long description:
 
     $ virtues log [-v]
     
