@@ -42,6 +42,6 @@ To clear your log:
 Status Report
 -----
 
-Running this command will show you a status report for all your days so far:
+Running this command will show you a status report for all your virtue log entries so far:
 
     $ virtues status
